@@ -1,0 +1,126 @@
+*
+  font-size: 64px
+  font-weight: bold
+  margin: 0
+  padding: 0
+  user-select: none
+  box-sizing: border-box
+
+main
+  width: 100%
+  height: 100vh
+
+.btn
+  font-size: 18px
+  min-width: 180px
+  height: 40px
+  background-color: #2ACB42
+  border: none
+  color: white
+  cursor: pointer
+  outline: none
+  transition: .2s ease-in-out
+
+.btn:hover
+  background-color: #FFBF2F
+
+.btn:active
+  background-color: #FF6258
+
+.btn:first-child
+  margin-right: 20px
+
+.nav-bar
+  position: relative
+  display: flex
+  width: 380px
+  left: 50%
+  margin-left: -190px
+
+
+.section
+  position: relative
+  top: 20vh
+  left: 50%
+  margin-left: -700px
+  display: flex
+  width: 1400px
+  height: 600px
+  justify-content: space-around
+  align-items: center
+
+#img
+  box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.3)
+  border-radius: 10px
+  transition: .2s ease-in-out
+
+#img:hover
+  box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.1)
+  border-radius: 50px
+
+.arrow
+  color: #175B9A
+  cursor: pointer
+  transition: .2s ease-in-out
+
+.arrow:hover
+  color: #2188E8
+
+.arrow:active
+  color: #2A74CB
+
+
+@media screen and (max-width: 1400px)
+
+  .section
+    width: 800px
+    margin-left: -400px
+
+  #img
+    width: 600px
+
+@media screen and (max-width: 800px)
+  *
+    font-size: 52px
+
+  .section
+    width: 440px
+    margin-left: -220px
+
+  #img
+    width: 300px
+
+@media screen and (max-width: 450px)
+  *
+    font-size: 42px
+
+  .nav-bar
+    left: 0
+    margin-left: 0
+    flex-direction: column
+    width: 100%
+
+  .btn
+    position: absolute
+    margin-right: 0
+    min-width: 100%
+    margin-top: 20px
+    background-color: #2ACB42
+    border: none
+    color: white
+    cursor: pointer
+    outline: none
+    transition: .2s ease-in-out
+
+  .btn:last-child
+    margin-top: 80px
+
+  .section
+    width: 280px
+    margin-left: -140px
+
+  #img
+    width: 180px
+
+
+
