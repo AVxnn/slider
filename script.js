@@ -16,7 +16,7 @@ left.addEventListener('click', function(){
     }
     i--;
     img.src = array[i];
-    window.navigator.vibrate(2);
+    window.navigator.vibrate(60);
     console.log(navigator.battery);
 })
 
@@ -27,7 +27,7 @@ right.addEventListener('click', function(){
     }
     i++;
     img.src = array[i];
-    window.navigator.vibrate(2);
+    window.navigator.vibrate(60);
 })
 
 add.addEventListener('click', function(){
