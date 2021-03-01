@@ -17,6 +17,7 @@ left.addEventListener('click', function(){
     i--;
     img.src = array[i];
     window.navigator.vibrate(2);
+    console.log(navigator.battery);
 })
 
 
